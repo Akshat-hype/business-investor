@@ -1,0 +1,83 @@
+/* App.css – Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+input, select, button {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  background: #4CAF50;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar a, .navbar button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: #f7f7f7;
+}
+
+.idea-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background: #f8f9fa;
+}
+
+.disabled-btn {
+  background-color: #999;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+  margin-top: 10px;
+}
+
